@@ -1,0 +1,56 @@
+[30Oct2025 09:12:21.507] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, --nogui]
+[30Oct2025 09:12:21.521] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 25.0.1
+[30Oct2025 09:12:21.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Arch Linux; OS Linux arch amd64 version 6.17.5-arch1-1
+[30Oct2025 09:12:21.842] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[30Oct2025 09:12:22.232] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/og/mc-smp/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[30Oct2025 09:12:22.829] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Oct2025 09:12:24.985] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Oct2025 09:12:25.003] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [--nogui]
+[30Oct2025 09:12:25.085] [main/WARN] [mixin/]: Reference map 'voicechat.refmap.json' for voicechat.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2025 09:12:40.190] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.12, for MC 1.21.10 with MCP 20251007.101210
+[30Oct2025 09:12:40.196] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.12 Initialized
+[30Oct2025 09:12:40.230] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[30Oct2025 09:12:40.786] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[30Oct2025 09:12:40.935] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[30Oct2025 09:12:40.975] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[30Oct2025 09:12:40.978] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[30Oct2025 09:12:40.979] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[30Oct2025 09:12:41.472] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[30Oct2025 09:12:42.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: BETA Current: 1.21.10-2.6.6 Target: 1.21.10-2.6.6
+[30Oct2025 09:12:42.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Oct2025 09:12:43.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 60.0.12 Target: 60.0.12
+[30Oct2025 09:12:43.865] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[30Oct2025 09:12:45.750] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load mod:voicechat pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
+[30Oct2025 09:12:49.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[30Oct2025 09:12:49.969] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[30Oct2025 09:12:50.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[30Oct2025 09:12:50.280] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Oct2025 09:12:50.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Oct2025 09:12:50.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Oct2025 09:12:50.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Oct2025 09:12:50.681] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Oct2025 09:12:50.812] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Oct2025 09:12:50.815] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Oct2025 09:12:50.817] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Oct2025 09:12:50.820] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Oct2025 09:12:50.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Oct2025 09:12:51.692] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[30Oct2025 09:12:51.701] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[30Oct2025 09:12:51.718] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 27 ms
+[30Oct2025 09:12:51.726] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.871s)! For help, type "help"
+[30Oct2025 09:12:51.848] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Oct2025 09:12:51.865] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[30Oct2025 09:12:51.904] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'centre-mint.gl.at.ply.gg:6998'
+[30Oct2025 09:12:51.911] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[30Oct2025 09:13:51.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[30Oct2025 09:15:12.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[30Oct2025 09:15:12.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Oct2025 09:15:12.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Oct2025 09:15:12.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Oct2025 09:15:12.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[30Oct2025 09:15:12.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[30Oct2025 09:15:12.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[30Oct2025 09:15:12.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Oct2025 09:15:12.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Oct2025 09:15:12.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Oct2025 09:15:12.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
